@@ -19,7 +19,7 @@ réalisées dans le cadre du module Recherche Opérationnelle.
 ## Technologies Utilisées
 - Langage : Python 3.x
 - Modélisation : Pyomo Framework
-- Solveur : HiGHS (`appsi_highs`) via le paquet `highspy`  <!-- FIX: était GLPK, le code utilise HiGHS -->
+- Solveur : gplk,HiGHS (`appsi_highs`) via le paquet `highspy`  <!-- FIX: était GLPK, le code utilise HiGHS -->
 
 ## Installation des Dépendances
 
