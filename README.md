@@ -18,13 +18,20 @@ réalisées dans le cadre du module Recherche Opérationnelle.
 
 ## Technologies Utilisées
 - Langage : Python 3.x
-- Modélisation : Pyomo Framework
-- Solveur : Glpk
+- Modélisation :Pyomo Framework
+- Solveur :GLPK (Méthode du Simplexe)
 
 ## Installation des Dépendances
 
 ```bash
-pip install pyomo 
+pip install pyomo
+```
+```bash
+pip install glpk
+```
+ou
+```bash
+conda install -c conda-forge glpk pyomo
 ```
 
 ## Exécution des Modèles
