@@ -2,7 +2,6 @@ from pyomo.environ import *
 
 def solve_routing():
     model = ConcreteModel(name="Routage_Eau")
-    
 
     points = [0, 1, 2, 3]
     dist = {
@@ -13,7 +12,7 @@ def solve_routing():
     }
 
     model.x = Var(dist.keys(), domain=Binary)
-    model.u = Var(points, domain=NonNegativeReals) 
+    model.u = Var(points, bounds=(0, len(points)-1), domain=NonNegativeReals)
 
     def obj_rule(model):
         return sum(dist[i,j] * model.x[i,j] for (i,j) in dist.keys())
@@ -31,9 +30,21 @@ def solve_routing():
             if i != 0 and j != 0 and i != j and (i,j) in dist:
                 model.mtz.add(model.u[i] - model.u[j] + n * model.x[i,j] <= n - 1)
 
+    model.u[0].fix(0)
+
     solver = SolverFactory('glpk')
-    solver.solve(model)
-    model.display()
+    result = solver.solve(model)
+
+    if result.solver.termination_condition == TerminationCondition.optimal:
+        print("\n--- Itinéraire Optimal ---")
+        distance_totale = 0
+        for (i, j) in dist.keys():
+            if model.x[i, j].value and round(model.x[i, j].value) == 1:
+                print(f"  Point {i} → Point {j}  (distance : {dist[i,j]})")
+                distance_totale += dist[i, j]
+        print(f"Distance totale : {distance_totale}")
+    else:
+        print(f"Échec du solveur : {result.solver.termination_condition}")
 
 if __name__ == "__main__":
     solve_routing()
