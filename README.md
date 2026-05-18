@@ -24,7 +24,7 @@ réalisées dans le cadre du module Recherche Opérationnelle.
 ## Installation des Dépendances
 
 ```bash
-pip install pyomo highspy
+pip install pyomo 
 ```
 
 ## Exécution des Modèles
