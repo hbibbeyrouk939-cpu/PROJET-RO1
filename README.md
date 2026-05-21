@@ -59,4 +59,4 @@ Pour accompagner notre rapport et valider l'implémentation technique de chaque 
 | :-: | :--- | :--- | :--- |
 | 1 | **Introduction & Optimisation du Transport de Poisson** | Mouhamed Lehbib Beyrouk | [▶ Regarder la vidéo](https://www.loom.com/share/7d19636821a249fd8407f32cbd4549d5) |
 | 2 | **Routage des Camions d'Eau (Formulation MTZ)** | Aly Mohamed Aly | [▶ Regarder la vidéo](lien routage) |
-| 3 | **Gestion des Stocks (Modèle de Harris-Wilson)** | Maidla Isselmo| [▶ Regarder la vidéo](lien stock) |
+| 3 | **Gestion des Stocks (Modèle de Harris-Wilson)** | Maidla Isselmo| [▶ Regarder la vidéo](https://www.loom.com/share/5f723d67cb2345e8a8c06020fc7f03ff) |
