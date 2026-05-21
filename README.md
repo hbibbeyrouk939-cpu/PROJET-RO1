@@ -58,8 +58,8 @@ Pour accompagner notre rapport et valider l'implémentation technique de chaque 
 | # | Partie du Projet | Intervenant | Lien de la Vidéo (Loom) |
 | :-: | :--- | :--- | :--- |
 | 1 | **Introduction & Optimisation du Transport de Poisson** | Mouhamed Lehbib Beyrouk | [▶ Regarder la vidéo](https://www.loom.com/share/7d19636821a249fd8407f32cbd4549d5) |
-| 2 | **Routage des Camions d'Eau (Formulation MTZ)** | Aly Mohamed Aly / Maidla | [▶ Regarder la vidéo](الرابط_الخاص_بفيديو_المياه) |
-| 3 | **Gestion des Stocks (Modèle de Harris-Wilson)** | Aly Mohamed Aly / Maidla | [▶ Regarder la vidéo](الرابط_الخاص_بفيديو_المخزون) |
+| 2 | **Routage des Camions d'Eau (Formulation MTZ)** | Aly Mohamed Aly | [▶ Regarder la vidéo](الرابط_الخاص_بفيديو_المياه) |
+| 3 | **Gestion des Stocks (Modèle de Harris-Wilson)** | Maidla Isselmo| [▶ Regarder la vidéo](الرابط_الخاص_بفيديو_المخزون) |
 
 > 💡 **Note :** Chaque vidéo contient une explication théorique de la situation modélisée ainsi qu'une exécution en direct (Live Demo) du script Python correspondant.
  
