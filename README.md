@@ -51,7 +51,7 @@ python gestion_stock.py --demand 1200 --order-cost 50 --holding-cost 2
 ```
 ---
 
-## 📺 Présentations Vidéos (Démos Loom)
+## Présentations Vidéos (Démos Loom)
 
 Pour accompagner notre rapport et valider l'implémentation technique de chaque partie, vous pouvez visionner les explications détaillées et les démonstrations de code en cliquant sur les liens ci-dessous :
 
